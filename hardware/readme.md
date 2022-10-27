@@ -1,0 +1,10 @@
+# MS2130 Hardware
+
+## LCEDA
+
+  [MS2130_HDMI2USB_DEMO_2022-10-27.zip](MS2130_HDMI2USB_DEMO_2022-10-27.zip)
+
+## preview
+
+![2D_PCB_Top](2D_PCB_Top.png)
+![2D_PCB_Top](2D_PCB_BOTTOM.png)
