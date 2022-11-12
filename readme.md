@@ -19,20 +19,20 @@
 
 | ROM Address | Flash Address | Length  | User Data          | data type        |
 |---          |---            |---      |---                 | ---              |
-| 0100F800H   | 0100F830H     | 0x100   |edid                | uint8 array[256] |
-| 0100F900H   | 0100F930H     | 0x120   |hdcpUserKey         | uint8 array[288] |
-| 0100FA20H   | 0100FA50H     | 0x020   |ultrasemi           | uchar array[32]  |
-| 0100FA40H   | 0100FA70H     | 0x020   |ultrasemi_version   | uchar array[32]  |
-| 0100FA60H   | 0100FA90H     | 0x020   |ultrasemi_magic     | uint8 array[32]  |
-| 0100FA80H   | 0100FAB0H     | 0x020   |ManufacturerString  | user_string_t    |
-| 0100FAA0H   | 0100FAD0H     | 0x020   |ProduceString       | user_string_t    |
-| 0100FAC0H   | 0100FAF0H     | 0x020   |U2ProduceString     | user_string_t    |
-| 0100FAE0H   | 0100FB10H     | 0x020   |AudioString         | user_string_t    |
-| 0100FB00H   | 0100FB30H     | 0x020   |U2AudioString       | user_string_t    |
-| 0100FB20H   | 0100FB50H     | 0x020   |SerialnumString     | user_string_t    |
-| 0100FB40H   | 0100FB70H     | 0x020   |U2SerialnumString   | user_string_t    |
-| 0100FB60H   | 0100FB90H     | 0x020   |BCSH                | user_bcsh_t      |
-| 0100FB80H   | 0100FBB0H     | 0x020   |AudioRoute          | audio_route_t    |
+| 0x00F800    | 0x00F830      | 0x100   |edid                | uint8 array[256] |
+| 0x00F900    | 0x00F930      | 0x120   |hdcpUserKey         | uint8 array[288] |
+| 0x00FA20    | 0x00FA50      | 0x020   |ultrasemi           | uchar array[32]  |
+| 0x00FA40    | 0x00FA70      | 0x020   |ultrasemi_version   | uchar array[32]  |
+| 0x00FA60    | 0x00FA90      | 0x020   |ultrasemi_magic     | uint8 array[32]  |
+| 0x00FA80    | 0x00FAB0      | 0x020   |ManufacturerString  | user_string_t    |
+| 0x00FAA0    | 0x00FAD0      | 0x020   |ProduceString       | user_string_t    |
+| 0x00FAC0    | 0x00FAF0      | 0x020   |U2ProduceString     | user_string_t    |
+| 0x00FAE0    | 0x00FB10      | 0x020   |AudioString         | user_string_t    |
+| 0x00FB00    | 0x00FB30      | 0x020   |U2AudioString       | user_string_t    |
+| 0x00FB20    | 0x00FB50      | 0x020   |SerialnumString     | user_string_t    |
+| 0x00FB40    | 0x00FB70      | 0x020   |U2SerialnumString   | user_string_t    |
+| 0x00FB60    | 0x00FB90      | 0x020   |BCSH                | user_bcsh_t      |
+| 0x00FB80    | 0x00FBB0      | 0x020   |AudioRoute          | audio_route_t    |
 
 ### user_string_t
 
