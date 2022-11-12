@@ -1,6 +1,7 @@
 # MS2130 MS2131 Reference Design
 
 ## HardWare
+  LCEDA
 
   MS2130
   ![MS2130 top](hw_ms2130/2D_PCB_Top.png)
